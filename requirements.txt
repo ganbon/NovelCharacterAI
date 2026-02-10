@@ -1,0 +1,18 @@
+--index-url "https://download.pytorch.org/whl/cu124"
+--extra-index-url "https://pypi.org/simple"
+
+-e .
+
+transformers~=4.57.1
+torch~=2.6.0
+pandas~=2.2.3
+scikit-learn~=1.6.1
+numpy~=2.2.4
+sentence_transformers~=4.0.2
+sentencepiece~=0.2.0
+datasets~=3.5.0
+trl~=0.25.1
+peft~=0.15.1
+accelerate~=1.6.0
+fugashi~=1.4.0
+unidic_lite~=1.0.8

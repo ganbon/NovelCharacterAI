@@ -1,0 +1,22 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: end-of-file-fixer
+        files: ^(scripts/|src/)
+        types: [python]
+      - id: trailing-whitespace
+        files: ^(scripts/|src/)
+        types: [python]
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.3.0
+    hooks:
+      - id: ruff
+        args: [ --fix, --config=./src/system_deploy/pyproject.toml ]
+        types: [python]
+        files: ^(scripts/|src/)
+      - id: ruff-format
+        args: [ --config=./src/system_deploy/pyproject.toml ]
+        types: [python]
+
+        files: ^(scripts/|src/)

@@ -1,0 +1,2 @@
+# NovelCharacterAI
+Novel2DialCorpusで構築したコーパスでキャラクターAIを構築するコード

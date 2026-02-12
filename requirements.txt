@@ -16,3 +16,4 @@ peft~=0.15.1
 accelerate~=1.6.0
 fugashi~=1.4.0
 unidic_lite~=1.0.8
+bitsandbytes~=0.45.5
